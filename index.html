@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Project</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center">API Data Fetcher</h1>
+        <div id="joke" class="card my-3">
+            <div class="card-body">
+                <h5 class="card-title">Random Joke</h5>
+                <p class="card-text" id="joke-text">Loading...</p>
+                <button class="btn btn-primary" id="joke-button">Get Joke</button>
+            </div>
+        </div>
+        <div id="weather" class="card my-3">
+            <div class="card-body">
+                <h5 class="card-title">Weather Info</h5>
+                <p class="card-text" id="weather-text">Loading...</p>
+                <button class="btn btn-primary" id="weather-button">Get Weather</button>
+            </div>
+        </div>
+        <div id="news" class="card my-3">
+            <div class="card-body">
+                <h5 class="card-title">Latest News</h5>
+                <ul class="list-group" id="news-list">
+                    <li class="list-group-item">Loading...</li>
+                </ul>
+                <button class="btn btn-primary" id="news-button">Get News</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
